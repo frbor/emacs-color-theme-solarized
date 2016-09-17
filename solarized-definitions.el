@@ -317,6 +317,13 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (emacs-wiki-bad-link-face (,@fmt-undr ,@fg-red))
                 (emacs-wiki-link-face (,@fmt-undr ,@fg-blue))
                 (emacs-wiki-verbatim-face (,@fmt-undr ,@fg-base00))
+                ;;elscreen
+                ;;;;; elscreen
+				(elscreen-tab-background-face (:inherit default,@fmt-undr,@bg-back))
+                (elscreen-tab-current-screen-face (,@fmt-undr,@fg-base00 ,@bg-base3 ,@fmt-revr))
+                (elscreen-tab-control-face (,@fg-base00 ,@bg-base02 ,@fmt-revr))
+                (elscreen-tab-other-screen-face (,@fmt-none,@fg-base02,@bg-base0,@fmt-undr))
+                
                 ;; eshell
                 (eshell-ls-archive (,@fg-magenta))
                 (eshell-ls-backup (,@fg-yellow))
