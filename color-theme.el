@@ -1,15 +1,15 @@
 ;;; color-theme.el --- install color themes
 
-;; Copyright (C) 1999, 2000  Jonadab the Unsightly One <jonadab@bright.net>
-;; Copyright (C) 2000, 2001, 2002, 2003  Alex Schroeder <alex@gnu.org>
-;; Copyright (C) 2003, 2004  Xavier Maillard <zedek@gnu-rox.org>
-
+;; Author: Jonadab the Unsightly One <jonadab@bright.net>
 ;; Version: 6.5.5
 ;; Package-Version: 6.5.5
 ;; Keywords: faces
-;; Author: Jonadab the Unsightly One <jonadab@bright.net>
 ;; Maintainer: Xavier Maillard <zedek@gnu-rox.org>
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki.pl?ColorTheme
+
+;; Copyright (C) 1999, 2000  Jonadab the Unsightly One <jonadab@bright.net>
+;; Copyright (C) 2000, 2001, 2002, 2003  Alex Schroeder <alex@gnu.org>
+;; Copyright (C) 2003, 2004  Xavier Maillard <zedek@gnu-rox.org>
 
 ;; This file is not part of GNU Emacs.
 
