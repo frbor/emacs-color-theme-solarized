@@ -319,17 +319,12 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (emacs-wiki-verbatim-face (,@fmt-undr ,@fg-base00))
 
                 ;;cider-stacktrace
-                ;(cider-stacktrace-error-class-face (,@fg-green,@bg-back))
-                ;(cider-stacktrace-face (,@fg-green,@bg-back))
-                ;(cider-stacktrace-error-message-face (,@fg-green,@bg-back))
-                ;(cider-stacktrace-filter-shown-face (,@fg-green,@bg-back))
                 (cider-stacktrace-promoted-button-face (,@fmt-none))
                 (cider-stacktrace-suppressed-button-face (,@fmt-none))
                 ;;elscreen
                 (elscreen-tab-background-face (:inherit default,@fmt-undr,@bg-back))
                 (elscreen-tab-current-screen-face (,@fmt-undr,@fg-base00 ,@bg-base3 ,@fmt-revr))
                 (elscreen-tab-control-face (,@fg-base00 ,@bg-base02 ,@fmt-revr))
-                ;(elscreen-tab-other-screen-face (,@fmt-none,@fg-base02,@bg-base0,@fmt-undr))
                 (elscreen-tab-other-screen-face (,@fg-base02,@bg-base0,@fmt-undr))
                 
                 ;; eshell
