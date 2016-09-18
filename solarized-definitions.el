@@ -319,8 +319,8 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (emacs-wiki-verbatim-face (,@fmt-undr ,@fg-base00))
 
                 ;;cider-stacktrace
-                (cider-stacktrace-promoted-button-face (,@fmt-none))
-                (cider-stacktrace-suppressed-button-face (,@fmt-none))
+                ;(cider-stacktrace-promoted-button-face (,@fmt-none))
+                ;(cider-stacktrace-suppressed-button-face (,@fmt-none))
                 ;;elscreen
                 (elscreen-tab-background-face (:inherit default,@fmt-undr,@bg-back))
                 (elscreen-tab-current-screen-face (,@fmt-undr,@fg-base00 ,@bg-base3 ,@fmt-revr))
